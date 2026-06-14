@@ -161,23 +161,6 @@ DATABASE_URL=postgresql+psycopg2://username:password@localhost:5432/voice2query
 TEXT_TO_SQL_PROVIDER=ollama
 OLLAMA_MODEL=llama3:latest
 OLLAMA_URL=http://localhost:11434/api/generate
-```
-
-### OpenAI (Optional)
-
-```env
-TEXT_TO_SQL_PROVIDER=openai
-OPENAI_API_KEY=your_api_key
-OPENAI_MODEL=gpt-4.1-mini
-```
-
-### Speechmatics (Optional)
-
-```env
-SPEECHMATICS_API_KEY=your_api_key
-SPEECHMATICS_LANGUAGE=en
-```
-
 ---
 
 ## ▶️ Running the Application
